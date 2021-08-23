@@ -11,9 +11,9 @@ int main(){
     {
         scanf("%s",S);
         int flag = 0,j = 0;
-        while(S[j]!='\0')
+        while(S[j]!= '\0')
         {
-            if(S[j]=='D'){ flag = 1; break;}
+            if(S[j] == 'D'){ flag = 1; break;}
             j++;
         }
         if(flag) printf("You shall not pass!\n");
